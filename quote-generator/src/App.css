@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Changa:wght@300&family=Gloria+Hallelujah&family=Outfit:wght@300&family=Raleway:wght@100;200;300;500&family=Rubik:ital,wght@1,300&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.main-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+  flex-wrap: wrap;
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  padding: 1rem;
+  flex-shrink: 2;
+  min-height: 20%;
+  background-color: white;
+  color: blue;
+}
+
+#text {
+  margin: 1rem;
+}
+
+#author {
+  align-self: flex-end;
+  margin: 1rem;
+}
+
+#button-box {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#twitter-icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+#new-quote {
+  margin-right: 1rem;
+  padding: 10px;
+  width: 30%;
+  border: none;
+  color: white;
+  transition: 1s ease all;
+}
+
+#new-quote:hover {
+  transform: scale(1.03);
+}
